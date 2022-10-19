@@ -26,6 +26,12 @@
 
 ### Unit Test
 - Sinon.js 를 이용하여 Mocking 한다. (Mocking DB, Mocking Socket Server 사용)
+- AAA 패턴
+  - AAA 패턴이랑 준비(arrange), 실행(act), 검증(assert) 세 단계로 test를 작성하는 패턴이다.
+  - Arrange 단계에서는 테스트에 필요한 변수나 객체를 생성
+  - Act 단계에서는 테스트를 실행
+  - Assert 단계에서는 실행한 코드가 설계한대로 정확하게 동작했는지 검증
+
 
 ### E2E Test
 - chai-http 를 이용하여 식제 http request 날려보는 방법 (실제 DB, 실제 Socket Server 사용)
